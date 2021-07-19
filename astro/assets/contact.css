@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contact > p {
+  margin-bottom: 5px;
+}
+body {
+  background-color: #2a4d69;
+  color: #e7eff6;
+  font-family: "Arial", "sans-serif";
+}
+.submit-button {
+  padding: 0.5em 1em;
+  border: 0;
+  border-radius: 0.5px;
+  background: #e7eff6;
+  color: black;
+}
+header img {
+  max-width: 100%;
+}
+.mainMenu > li:hover > a {
+  color: #adcbe3;
+}
+a:link {
+  text-decoration: none;
+  color: #adcbe3;
+}
+a:visited {
+  text-decoration: none;
+  color: #adcbe3;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: "Audiowide", cursive;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa {
+  padding: 1.5em;
+  width: 2em;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.5em 0.1em;
+  border-radius: 50%;
+  background: #3b5998;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.all {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+}
+
+nav {
+  grid-column: 1/5;
+  position: sticky;
+  top: 0;
+  background-color: #2a4d69;
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+h2 {
+  grid-column: 1/5;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+img {
+  width: 100%;
+}
+footer {
+  padding-top: 5em;
+  grid-column: 1/5;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  grid-column: 2/4;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 1em 1.5em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.hamIcon {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 2em;
+  }
+  .container {
+  grid-column: 1/5;
+}
+}
+  @media screen and (max-width: 768px) {
+  footer {
+      display: block;
+    }
+    .social {
+      margin-top: 1em;
+    }
+     h1 {
+    font-size: 1em;
+    top: 10%;
+  }
+    .burg {
+      width: 35px;
+      height: 5px;
+      background-color: black;
+      margin: 0.5em 0;
+    }
+    .mainMenu {
+      display: none;
+    }
+    .mainMenu.toggleCls {
+      display: block;
+    }
+    .hamIcon {
+      display: block;
+    }
+    nav {
+      position: relative;
+    }
+   li {
+    margin-top: 0.5em;
+  }
+    .container {
+  grid-column: 1/5;
+}
+}
