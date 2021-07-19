@@ -28,3 +28,6 @@ th, td {
 body {
     background-color: rgb(71, 149, 221);
 }
+.h2 {
+    margin-bottom: 3rem;
+}
