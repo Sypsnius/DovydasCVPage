@@ -19,3 +19,12 @@ th, td {
 #works,#contact {
       margin-left: 2rem;
   }
+  #works {
+      padding-top: 5rem;
+  }
+.web {
+    margin-bottom: 4rem;
+}
+body {
+    background-color: rgb(71, 149, 221);
+}
