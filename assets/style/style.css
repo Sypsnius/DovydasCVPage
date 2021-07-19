@@ -1,0 +1,21 @@
+.about-me, .myImg {
+    margin: 2rem;
+}
+.name {
+    margin-left: 2rem;
+}
+.aboutDiv {
+    padding-top: 4rem;
+}
+.educDiv {
+    padding-top: 5rem;
+}
+.educ {
+    width: 100%;
+}
+th, td {
+    padding: 1rem;
+  }
+#works,#contact {
+      margin-left: 2rem;
+  }
