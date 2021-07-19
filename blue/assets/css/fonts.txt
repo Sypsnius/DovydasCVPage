@@ -1,0 +1,23 @@
+---------------------------
+Script Alert
+---------------------------
+6 fonts found 
+Bitter-Bold
+FontAwesome
+SegoeUI
+SegoeUI-Bold
+SegoeUI-Light
+SegoeUI-SemiBold
+---------------------------
+OK   
+---------------------------
+
+
+html
+
+<link href="https://fonts.googleapis.com/css?family=Bitter:700|Montserrat:300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+css
+
+font-family: 'Bitter', serif;
+font-family: 'Montserrat', sans-serif;
